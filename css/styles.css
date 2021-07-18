@@ -1,17 +1,36 @@
+/* General Section */
+
 body{
   font-family: "Montserrat-Black", sans-serif;
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navbar Section */
+
+.fa-fire{
+  color: white;
+}
+
+.fa-fire:hover{
+  color: #ef8172;
 }
 
 .navbar-brand{
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+  color: white;
 }
 
 .nav-item{
@@ -23,31 +42,97 @@ h1{
   font-family: "Montserrat-light", sans-serif;
 }
 
-.cust-spaceing-btn{
-  margin: 5% 3% 5% 0;
-}
-
-.rotated{
-  width: 25%;
-  /*transform: rotate(30deg);
-  width: 60%;
-  position: relative; */
-}
-
 .navbar{
   padding: 0 0 4.5rem;
 }
 
-
-.container-fluid{
-    padding: 3% 15%;
+.lar-pad-titl{
+  padding: 3% 15%;
 }
 
+/* Download Button Section */
 
+.cust-spaceing-btn{
+  margin: 5% 3% 5% 0;
+}
 
+/* Image Section */
 
+.rotated{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-right: 1rem;
+  margin-left: 6.25rem;
+}
+
+/* Features Section */
+
+.feat-text-row{
+  color: #8f8f8f;
+}
+
+.featured-icons{
+  color: #ef8172;
+  margin: 1.75rem 0;
+}
+
+.featured-icons:hover{
+  color: #ff4c68;
+}
+
+.cen-feat{
+  text-align: center;
+  padding: 5%;
+}
+
+.feat-titl-row{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Padding for features section */
+
+.mid-pad-feat{
+  padding: 3% 8%;
+  margin-bottom: 3rem;
+}
+
+/* Testimonial Section */
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 5rem 1.25rem 7rem;
+}
+
+.carousel-item{
+  padding: 7% 15% 4%;
+}
+
+/* Press Logo */
+
+.press-logo{
+  margin: 1.25rem 1.25rem 3.125rem;
+  width: 15%;
+}
+
+/* Selectors */
 
 #title{
   background-color: #ff4c68;
   color: white;
+  margin-bottom: 4.25rem;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 5%;
 }
