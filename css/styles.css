@@ -17,7 +17,7 @@ body{
 /* Navbar Section */
 
 .fa-fire{
-  color: white;
+  color: #f8f9fa;
 }
 
 .fa-fire:hover{
@@ -28,7 +28,7 @@ body{
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
-  color: white;
+  color: #f8f9fa;
 }
 
 .nav-item{
@@ -106,6 +106,7 @@ body{
 .testimonial-names{
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-weight: 900;
 }
 
 .carousel-item{
@@ -120,8 +121,8 @@ body{
 /* Press Logo */
 
 .press-logo{
-  margin: 1.25rem 1.25rem 3.125rem;
-  width: 15%;
+  margin: 1.25rem 3rem 4.5rem;
+  width: 11%;
 }
 
 /* Pricing Table */
@@ -134,21 +135,21 @@ body{
 .price-features p i,
 .faq-icon,
 .social .social-icon:hover {
-  color: #ff4c68;
+  color: #ef8172;
 }
 
 .bg-custom,
 .btn-custom,
 .timeline-page .timeline-item .date-label-left::after,
 .timeline-page .timeline-item .duration-right::after,.back-to-top:hover {
-  background-color: #ff4c68;
+  background-color: #ef8172;
 }
 
 .btn-custom,
 .custom-form .form-control:focus,
 .social .social-icon:hover,
 .registration-input-box:focus {
-  border-color: #ff4c68;
+  border-color: #ef8172;
 }
 
 .service-box .services-icon,
@@ -197,20 +198,20 @@ body{
 
 #title{
   background-color: #ff4c68;
-  color: white;
+  color: #f8f9fa;
   margin-bottom: 4.25rem;
 }
 
 #testimonials{
   text-align: center;
   background-color: #ef8172;
-  color: white;
+  color: #f8f9fa;
 }
 
 #testimonials:hover{
   text-align: center;
   background-color: #ff4c68;
-  color: white;
+  color: #f8f9fa;
 }
 
 #press{
