@@ -18,6 +18,9 @@
   <!-- Font Awesome CDN -->
   <script src="https://kit.fontawesome.com/eb8ca7b138.js" crossorigin="anonymous"></script>
 
+  <!-- Material Design Webfont CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.9.95/css/materialdesignicons.css" rel="stylesheet">
+
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="css/styles.css">
 
@@ -57,12 +60,11 @@
         </div>
         <div class="col-lg-6">
           <img src="images/iphone6.png" alt="iphone-mockup" class="rotated">
-        </div >
+        </div>
       </div>
 
     </div>
   </section>
-
 
   <!-- Features -->
 
@@ -90,7 +92,6 @@
 
   </section>
 
-
   <!-- Testimonials -->
 
   <section id="testimonials">
@@ -99,22 +100,23 @@
       <div class="carousel-inner">
 
         <div class="carousel-item active">
-          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <h2 class="second-heading">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
           <img src="images/dog-img.jpg" class="testimonial-image" alt="dog-profile">
-          <em>Pebbles, New York</em>
+          <p class="testimonial-names"><em>Pebbles, New York</em></p>
         </div>
 
         <div class="carousel-item">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <h2 class="testimonial-text second-heading">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
           <img src="images/lady-img.jpg" class="testimonial-image" alt="lady-profile">
-          <em>Beverly, Illinois</em>
+          <p class="testimonial-names"><em>Beverly, Illinois</em></p>
         </div>
 
         <div class="carousel-item">
-          <h2 class="testimonial-text">Whhoooof! Thanks to this app, I found the best food anywhere around town! Worth the price!</h2>
+          <h2 class="testimonial-text second-heading">Whhoooof! Thanks to this app, I found the best food anywhere around town! Worth the price!</h2>
           <img src="images/dog-2-img.jpg" class="testimonial-image" alt="dog-2-profile">
-          <em>Charlie, Toronto</em>
+          <p class="testimonial-names"><em>Charlie, Toronto</em></p>
         </div>
+
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -131,54 +133,94 @@
       </ol>
     </div>
 
+
+    <!-- Press -->
+    <span id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+      <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+    </span>
+
   </section>
-
-
-  <!-- Press -->
-
-  <section id="press">
-    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-  </section>
-
 
   <!-- Pricing -->
-
   <section id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <div class="container">
 
+      <div class="row justify-content-center text-center">
+        <div class="container-fluid">
+          <h2 class="h2-spacing">A Plan for Every Dog's Needs</h2>
+          <p class="text-muted mt-4 title-subtitle mx-auto">Simple and affordable price plans for your and your dog.</p>
+        </div>
+      </div>
 
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="bg-white mt-3 price-box">
+            <div class="pricing-name text-center">
+              <h4 class="mb-0">Basic</h4>
+            </div>
+            <div class="plan-price text-center mt-4">
+              <h1 class="text-custom font-weight-normal mb-0">Free</h1>
+            </div>
+            <div class="price-features mt-5">
+              <p><i class="mdi mdi-check"></i> Matches: 5 Per Day</p>
+              <p><i class="mdi mdi-check"></i> Messages: 10 Per Day</p>
+              <p><i class="mdi mdi-check"></i> App Usage: 1hr Per Day</p>
+              <p><i class="mdi mdi-close"></i> Priority: None</p>
+              <p><i class="mdi mdi-close"></i> Ad Free: No</p>
+            </div>
+            <div class="text-center mt-5">
+              <a href="#" class="btn btn-custom text-white">Join Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="bg-white mt-3 price-box">
+            <div class="pricing-name text-center">
+              <h4 class="mb-0">Premium</h4>
+            </div>
+            <div class="plan-price text-center mt-4">
+              <h1 class="text-custom font-weight-normal mb-0">$19<span>/Month</span></h1>
+            </div>
+            <div class="price-features mt-5">
+              <p><i class="mdi mdi-check"></i> Matches: 20 Per Day</p>
+              <p><i class="mdi mdi-check"></i> Messages: Unlimited</p>
+              <p><i class="mdi mdi-check"></i> App Usage: Unlimited</p>
+              <p><i class="mdi mdi-check"></i> Priority: High</p>
+              <p><i class="mdi mdi-close"></i> Ad Free: No</p>
+            </div>
+            <div class="text-center mt-5">
+              <a href="#" class="btn btn-custom text-white">Join Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="bg-white mt-3 price-box">
+            <div class="pricing-name text-center">
+              <h4 class="mb-0">Platinum</h4>
+            </div>
+            <div class="plan-price text-center mt-4">
+              <h1 class="text-custom font-weight-normal mb-0">$29<span>/Month</span></h1>
+            </div>
+            <div class="price-features mt-5">
+              <p><i class="mdi mdi-check"></i> Matches: Unlimited</p>
+              <p><i class="mdi mdi-check"></i> Messages: Unlimited</p>
+              <p><i class="mdi mdi-check"></i> App Usage: Unlimited</p>
+              <p><i class="mdi mdi-check"></i> Priority: Extreme</p>
+              <p><i class="mdi mdi-check"></i> Ad Free: Yes</p>
+            </div>
+            <div class="text-center mt-5">
+              <a href="#" class="btn btn-custom text-white">Join Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </section>
-
-
   <!-- Call to Action -->
 
   <section id="cta">
@@ -189,7 +231,6 @@
 
   </section>
 
-
   <!-- Footer -->
 
   <footer id="footer">
@@ -197,7 +238,6 @@
     <p>© Copyright 2018 TinDog</p>
 
   </footer>
-
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
